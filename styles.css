@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #2E353F;
+}
+
+#hero{
+    background-image: url("./images/karur-hero_4x.jpg");
+    padding: 4rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero h1{
+    margin: 0;
+    margin-top: 1rem;
+    background: #C8CCC7;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#hero p{
+    color: white;
+    background: #998468;
+    width: 60%;
+    padding: 11px 16px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#main h2{
+    text-align: center;
+}
+
+.things-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.thing{
+    width: 320px;
+    text-align: center;
+    padding: 0.6rem 0.9rem;
+}
+
+.thing:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+.thing img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#tourist-guide{
+    margin-top: 3rem;
+}
+
+#tourist-guide .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    gap: 4rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background: #4C5966;
+    padding: 1rem 3rem;
+    color: #DFE5EB;
+    border-radius: 10px;
+    border-bottom: 1rem solid #95B8E7;
+}
+
+#tourist-guide .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+#tourist-guide .card img{
+    width: 450px;
+    height: 200px;
+    border-radius: 4px;
+}
